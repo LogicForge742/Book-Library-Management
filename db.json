@@ -1,0 +1,64 @@
+ {
+ "books":[
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "category": "fiction",
+    "status": "available"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "category": "non-fiction",
+    "status": "available"
+  },
+  {
+    "title": "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger",
+    "category": "romance",
+    "status": "available"
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "category": "sci-fi",
+    "status": "available"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "category": "mystery",
+    "status": "available"
+  },
+  {
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "category": "fiction",
+    "status": "checked-out"
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "category": "non-fiction",
+    "status": "available"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "romance",
+    "status": "available"
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "category": "sci-fi",
+    "status": "available"
+  },
+  {
+  "title": "The StarBoy",
+  "author":"Bukayo Saka",
+  "category":"Football Biography",
+  "status":"Available"
+  }
+]
+}

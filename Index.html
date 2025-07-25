@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library Management</title>
+     <link rel="stylesheet" href="style.css"> 
+
+     <script src="script.js" defer></script>                            
+</head>
+<body>  
+    <header>
+    <div class="header">
+        <div class="header-content">
+            <h1 class="Library" class="logo">📚 My Library Hub </h1>
+          <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#BookCatalog">Book Catalog</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+    </header>
+    <!-- hero section -->
+     <section class="hero " id="first">
+        <div class="container">
+            <h1 class="know">Knowledge at Your Fingertips</h1>
+            <p>Explore our vast collection of books, digital resources, and community programs</p>
+            <div class="search-wrapper">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search by title,author or ISBN">
+                    <button type="button">Search</button>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <!-- book catalog section -->
+      <main class="container" id="books">
+        <div class="main-wrapper">
+            <div class="Content-section">
+                <h2 class="Section-title"> Book Catalog</h2>
+                <div class="Books-categories">
+                    <div class="category-btn active"> All books </div> 
+                      <div class="category-btn">Fiction</div> 
+                       <div class="category-btn">Non-Fictional</div> 
+                        <div class="category-btn">Mystery</div> 
+                         <div class="category-btn">Romance</div> 
+                          <div class="category-btn">Sci-Fi</div> 
+                           <div class="category-btn">Football Biography</div> 
+                </div>
+
+
+                <div id="loadingSpinner" class="loading">
+                    <div class="spinner"></div>
+                    <p> loading books....</p>
+                </div>
+                <div class="books-grid" id="bookGrid">
+                    <div class="books-card">
+                        <h3 class="titlebook">The Silent patient</h3>
+                        <p class="author"> <i>by Alex Michaelides </i></p>
+                        <span class="status">available</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook">The Midnight Library</h3>
+                        <p class="author"> <i>Matt Haig</i></p>
+                        <span class="status">available</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook">Sapiens</h3>
+                        <p class="author"> <i>Yuval Noah Harari</i></p>
+                        <span class="status">available</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook">Foundation</h3>
+                        <p class="author"> <i>by Ngeno Milton</i></p>
+                        <span class="status">available</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook"> The Time's Travellers Wife</h3>
+                        <p class="author"><i>William Books</i></p>
+                        <span class="status">checked-out</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook">Little Women</h3>
+                        <p class="author"> <i>Louissa May Alcott</i></p>
+                        <span class="status">available</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook">The StarBoy</h3>
+                        <p class="author"> <i>by Bukayo Saka</i></p>
+                        <span class="status">available</span>
+                    </div>
+                    <div class="books-card">
+                        <h3 class="titlebook"> The Goat🐐</h3>
+                        <p class="author"> <i>by Lionel Messi</i></p>
+                        <span class="status">available</span>
+                    </div>
+                      <div class="books-card">
+                        <h3 class="titlebook"> Pride and Prejudice</h3>
+                        <p class="author"> <i>by Jane Austen</i></p>
+                        <span class="status">checked-out</span>
+                    </div>
+                      
+                    
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title"> Library News</h3>
+                <div class="new-item">
+                    <div class="news-date">July 22,2025</div>
+                    <strong>Extended Summer Hours</strong>
+                    <p>Library now open until 9pm on weekday!</p>
+                </div>
+                <div class="new-item">
+                    <div class="news-date">Aug 6,2025</div>
+                    <strong>New Digital Collection</strong>
+                    <p>access over 10,000 e-books and audiobooks online</p>
+                </div>
+                <div class="new-item">
+                    <div class="news-date">Aug 15, 2025</div>
+                    <strong>Summer Reading Challenge</strong>
+                    <p>join our reading program and win prizes</p>
+                </div>
+
+                </div>
+
+
+                <div class="sidebar-section">
+                    <h3 class="upcoming">Upcoming Events</h3>
+                    <div class="event-item">
+                        <div class="event-date"> Aug 20, 2025 -7:00pm</div>
+                        <strong> Author-talk:Sarah Johnson</strong>
+                        <p>meet the best selling mystery author</p>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date"> Aug 29, 2025 - 8:00pm </div>
+                        <strong>Monthly book clubs</strong>
+                        <p>Discussing" Brown Girl Dreaming by Jacqueline Woodson"</p>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date"> Sep 15,2025 - 9:00pm</div>
+                        <strong> Storytime sessions</strong>
+                        <p> Adventures in reading</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+      </main>
+      <footer>
+        <div class="containter">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact-info</h3>
+                    <p>Highrise Langata</p>
+                    <p>Phone number:0706055215</p>
+                    <p>Email:miltonngeno5@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>library Service Hours</h3>
+                    <p>Monday - Friday : 8:00am - 7:00pm</p>
+                    <p>Saturday : 8:00am - 5:00pm</p>
+                </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                    <p>My Account</p>
+                    <p>Reserve a Room</p>
+                    <p>Digital Resources</p>
+                    <p>Library Card Registration</p>
+            </div>
+            </div>
+            <p>&copy; 2025 My Library Hub . All rights reserved</p>
+        </div>
+      </footer>
+    
+</body>
+</html>
