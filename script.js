@@ -19,7 +19,7 @@ async function fetchBooks(category = 'All books') {
     loading.classList.add('show');
 
     try {
-        const res = await fetch('http://localhost:3000/books');
+        const res = await fetch('https://book-library-management-1-btbb.onrender.com');
         if (!res.ok) throw new Error('Failed to fetch books');
         books = await res.json();
 
